@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  database: hq
+  host: localhost
+  username: postgres
+
+production:
+  adapter: postgresql
+  database: hq
+  host: localhost
+  username: postgres

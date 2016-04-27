@@ -1,0 +1,20 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *= require wp-content/plugins/contact-form-7/includes/css/styles5b31
+ *= require wp-content/plugins/js_composer/assets/css/js_composer.min5859
+ *= require wp-content/uploads/sites/3/plethora/plethora_iconsc1f9
+ *= require wp-content/themes/healthflex/includes/core/assets/js/libs/owl.carousel.2.0.0-beta.2.4/css/owl.carouselc1f9
+ *= require wp-content/themes/healthflex/includes/core/assets/js/libs/owl.carousel.2.0.0-beta.2.4/css/owl.theme.defaultc1f9
+ *= require wp-content/themes/healthflex/includes/core/assets/css/libs/animate/animate.minc1f9
+ *= require wp-content/themes/healthflex/assets/css/theme_custom_bootstrapc1f9
+ *= require wp-content/uploads/wp-less/healthflex/assets/less/style-379773cf64
+ *= require wp-content/themes/healthflex-child/stylec1f9
+ *= require wp-content/plugins/jetpack/css/jetpack2e46
+ */
