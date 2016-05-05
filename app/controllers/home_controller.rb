@@ -8,5 +8,42 @@ class HomeController < ApplicationController
 
   end
 
+  def billing
+
+  end
+
+  def credentialing
+
+  end
+
+  def population
+
+  end
+
+  def practice
+
+  end
+
+  def document
+
+  end
+
+  def medical
+
+  end
+
+  def technology
+
+  end
+
+  def other
+
+  end
+
+  def all
+
+  end
+
+
 
 end

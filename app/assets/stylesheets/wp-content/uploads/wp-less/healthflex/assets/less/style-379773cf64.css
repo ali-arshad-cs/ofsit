@@ -2511,7 +2511,7 @@ a.social_links {
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
-  background-image: url(/assets/wp-content//healthflex/assets/images/slider-arrows.png);
+  background-image: url(/assets/themes/healthflex/assets/images/slider-arrows.png);
   background-repeat: no-repeat;
   background-color: transparent;
   margin: 0;
@@ -2520,7 +2520,7 @@ a.social_links {
 .head_panel .owl-carousel .owl-prev:hover,
 .head_panel .owl-carousel .owl-next:hover {
   opacity: 1;
-  background-image: url(/assets/wp-content/themes/healthflex/assets/images/slider-arrows.png);
+  background-image: url(/assets/themes/healthflex/assets/images/slider-arrows.png);
   background-repeat: no-repeat;
   background-color: transparent;
 }
