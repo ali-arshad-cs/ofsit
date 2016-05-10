@@ -37,8 +37,8 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3846154">
-              <caret line="214" column="129" selection-start-line="214" selection-start-column="129" selection-end-line="214" selection-end-column="129" />
+            <state vertical-scroll-proportion="0.5518395">
+              <caret line="714" column="237" selection-start-line="714" selection-start-column="237" selection-end-line="714" selection-end-column="237" />
               <folding />
             </state>
           </provider>
@@ -86,7 +86,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="338" />
+    <option name="x" value="21" />
     <option name="y" value="23" />
     <option name="width" value="1313" />
     <option name="height" value="992" />
@@ -114,9 +114,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="RailsProjectView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -183,6 +182,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,7 +380,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="338" y="23" width="1313" height="992" extended-state="0" />
+    <frame x="21" y="23" width="1313" height="992" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -761,7 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,8 +790,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3846154">
-          <caret line="214" column="129" selection-start-line="214" selection-start-column="129" selection-end-line="214" selection-end-column="129" />
+        <state vertical-scroll-proportion="0.5518395">
+          <caret line="714" column="237" selection-start-line="714" selection-start-column="237" selection-end-line="714" selection-end-column="237" />
           <folding />
         </state>
       </provider>
