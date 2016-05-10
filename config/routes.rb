@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   get 'other_services' => 'home#other'
   get 'all_services' => 'home#all'
   get 'contact_us' => 'home#contact'
+  get 'faqs' => 'home#faq'
 
 
   # Example of named route that can be invoked with purchase_url(id: product.id)

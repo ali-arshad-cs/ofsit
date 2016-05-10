@@ -48,6 +48,10 @@ class HomeController < ApplicationController
 
   end
 
+  def faq
+
+  end
+
 
 
 end
