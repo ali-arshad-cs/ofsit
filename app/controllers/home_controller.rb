@@ -44,12 +44,28 @@ class HomeController < ApplicationController
 
   end
 
+  def products
+
+  end
+
   def contact
 
   end
 
   def faq
 
+  end
+
+  def may
+
+  end
+
+  def hedis
+
+  end
+
+  def cred
+    
   end
 
 
