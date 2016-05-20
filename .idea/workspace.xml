@@ -24,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cred.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cred.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/cred.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2006689">
+            <state vertical-scroll-proportion="-7.5">
               <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/home/all.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7190635">
+              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -76,7 +86,6 @@
         <option value="$PROJECT_DIR$/app/views/home/products.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/about.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/contact.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/home/all.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/document.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/medical.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/population.html.erb" />
@@ -91,6 +100,7 @@
         <option value="$PROJECT_DIR$/app/views/home/hedis.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/may.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/cred.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/home/all.html.erb" />
       </list>
     </option>
   </component>
@@ -746,14 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/all.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6666667">
-          <caret line="312" column="32" selection-start-line="312" selection-start-column="32" selection-end-line="312" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/document.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.627451">
@@ -887,8 +889,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/cred.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2006689">
+        <state vertical-scroll-proportion="-7.5">
           <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/all.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7190635">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
           <folding />
         </state>
       </provider>
