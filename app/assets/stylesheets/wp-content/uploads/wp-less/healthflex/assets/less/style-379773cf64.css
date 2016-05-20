@@ -872,7 +872,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-secondary.active,
 .open > .dropdown-toggle.btn-secondary {
   color: #ffffff;
-  background-color: #a43340;
+  background-color: #E07000;
   border-color: rgba(0, 0, 0, 0);
 }
 .btn-secondary:active,
@@ -891,7 +891,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-secondary.active,
 .open > .dropdown-toggle.btn-secondary {
   color: #ffffff !important;
-  background-color: #a43340 !important;
+  background-color: #E07000 !important;
   border-color: rgba(0, 0, 0, 0) !important;
 }
 .btn-secondary:active,
@@ -8219,13 +8219,13 @@ div.ecwid-Terms-link-title {
 }
 .ecwid .ecwid-btn--secondary:hover,
 .ecwid .ecwid-btn--secondary-hover {
-  background: #a43340 !important;
+  background: #E07000 !important;
   color: #ffffff !important;
 }
 .ecwid .ecwid-btn--secondary:active,
 .ecwid .ecwid-btn--secondary:focus:active {
   padding: 8px 24px !important;
-  background: #a43340 !important;
+  background: #E07000 !important;
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0) !important;
 }
 /******************************************************************************/
