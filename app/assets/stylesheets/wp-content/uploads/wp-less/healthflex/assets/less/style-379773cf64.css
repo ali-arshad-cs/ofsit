@@ -1727,7 +1727,7 @@ THE LOGO
 }
 .logo a.brand img {
   width: auto;
-  max-height: 50%;
+  height: auto;
 }
 .logo a.brand:link,
 .logo a.brand:visited {
