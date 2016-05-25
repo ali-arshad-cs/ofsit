@@ -68,6 +68,10 @@ class HomeController < ApplicationController
     
   end
 
+  def blog
+
+  end
+
 
 
 end
