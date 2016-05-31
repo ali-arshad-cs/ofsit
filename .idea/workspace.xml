@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e562bba-810e-4de9-b399-374ca439e07b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/faq.html.erb" afterPath="$PROJECT_DIR$/app/views/home/faq.html.erb" />
     </list>
     <ignored path="health_coach.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
               <caret line="525" column="30" selection-start-line="525" selection-start-column="30" selection-end-line="525" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="faq.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/home/faq.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="120" column="286" selection-start-line="120" selection-start-column="286" selection-end-line="120" selection-end-column="286" />
               <folding />
             </state>
           </provider>
@@ -55,7 +65,6 @@
         <option value="$PROJECT_DIR$/app/assets/images/wp-content/uploads/wp-less/healthflex/assets/less/style-379773cf64.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/public/assets/main-2399425c5545ca1f89bb36656494992f.css" />
-        <option value="$PROJECT_DIR$/app/views/home/faq.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/wp-content/uploads/wp-less/healthflex/assets/less/style-379773cf64.css" />
         <option value="$PROJECT_DIR$/app/views/home/cred.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/may.html.erb" />
@@ -77,6 +86,7 @@
         <option value="$PROJECT_DIR$/app/views/home/blog.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/home/faq.html.erb" />
       </list>
     </option>
   </component>
@@ -394,12 +404,12 @@
       <option name="presentableId" value="Default" />
       <updated>1461771151977</updated>
       <workItem from="1464361622846" duration="1541000" />
-      <workItem from="1464702929850" duration="1327000" />
+      <workItem from="1464702929850" duration="1501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2868000" />
+    <option name="totallyTimeSpent" value="3042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="43" width="1400" height="952" extended-state="0" />
@@ -652,13 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/faq.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/other.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -818,6 +821,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="525" column="30" selection-start-line="525" selection-start-column="30" selection-end-line="525" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/faq.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="120" column="286" selection-start-line="120" selection-start-column="286" selection-end-line="120" selection-end-column="286" />
           <folding />
         </state>
       </provider>
