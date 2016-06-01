@@ -23,6 +23,7 @@ Rails.application.routes.draw do
   get 'hedis' => 'home#hedis'
   get 'cred' => 'home#cred'
   get 'blogs' => 'home#blog'
+  get 'articles' => 'home#articles'
 
 
   # Example of named route that can be invoked with purchase_url(id: product.id)

@@ -72,6 +72,10 @@ class HomeController < ApplicationController
 
   end
 
+  def articles
+
+  end
+
 
 
 end
