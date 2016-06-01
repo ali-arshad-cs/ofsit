@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e562bba-810e-4de9-b399-374ca439e07b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/articles.html.erb" afterPath="$PROJECT_DIR$/app/views/home/articles.html.erb" />
     </list>
     <ignored path="health_coach.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,8 +39,8 @@
       <file leaf-file-name="articles.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/home/articles.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="51" column="294" selection-start-line="51" selection-start-column="294" selection-end-line="51" selection-end-column="294" />
+            <state relative-caret-position="514">
+              <caret line="93" column="47" selection-start-line="93" selection-start-column="47" selection-end-line="93" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
@@ -463,12 +460,12 @@
       <updated>1461771151977</updated>
       <workItem from="1464361622846" duration="1541000" />
       <workItem from="1464702929850" duration="2480000" />
-      <workItem from="1464811925539" duration="2509000" />
+      <workItem from="1464811925539" duration="2580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6530000" />
+    <option name="totallyTimeSpent" value="6601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="189" y="35" width="1400" height="952" extended-state="0" />
@@ -889,8 +886,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/articles.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="51" column="294" selection-start-line="51" selection-start-column="294" selection-end-line="51" selection-end-column="294" />
+        <state relative-caret-position="514">
+          <caret line="93" column="47" selection-start-line="93" selection-start-column="47" selection-end-line="93" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
