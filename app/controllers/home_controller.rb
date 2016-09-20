@@ -80,6 +80,26 @@ class HomeController < ApplicationController
 
   end
 
+  def blog2
+
+  end
+
+  def blog3
+
+  end
+
+  def blog4
+
+  end
+
+  def blog5
+
+  end
+
+  def blog6
+
+  end
+
 
 
 end

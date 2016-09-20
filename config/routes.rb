@@ -25,6 +25,12 @@ Rails.application.routes.draw do
   get 'blogs' => 'home#blog'
   get 'articles' => 'home#articles'
   get 'blog1' => 'home#blog1'
+  get 'blog2' => 'home#blog2'
+  get 'blog3' => 'home#blog3'
+  get 'blog4' => 'home#blog4'
+  get 'blog5' => 'home#blog5'
+  get 'blog6' => 'home#blog6'
+
 
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
