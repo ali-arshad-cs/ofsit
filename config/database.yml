@@ -1,11 +1,8 @@
 development:
-  adapter: postgresql
-  database: hq
   host: localhost
-  username: postgres
-
-production:
   adapter: postgresql
+  encoding: unicode
   database: hq
-  host: localhost
-  username: postgres
+  pool: 5
+  username: ali
+  password: 12345678
