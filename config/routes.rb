@@ -30,6 +30,7 @@ Rails.application.routes.draw do
   get 'blog4' => 'home#blog4'
   get 'blog5' => 'home#blog5'
   get 'blog6' => 'home#blog6'
+  get 'blog7' => 'home#blog7'
   get 'article1' => 'home#article1'
   get 'article2' => 'home#article2'
   get 'article3' => 'home#article3'
