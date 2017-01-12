@@ -8,7 +8,7 @@ gem 'pg'
 gem 'compass-rails', "~> 1.1.6" # not relevant for this case,
 gem 'sass-rails', '4.0.2'
 gem 'sprockets', '~>2.11.0'
-
+gem 'devise'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views

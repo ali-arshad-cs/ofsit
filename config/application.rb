@@ -22,5 +22,12 @@ module HealthCoach
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+    config.to_prepare do
+      Devise::SessionsController.layout "blog"
+      Devise::RegistrationsController.layout "blog"
+      Devise::ConfirmationsController.layout "blog"
+      Devise::UnlocksController.layout "blog"
+      Devise::PasswordsController.layout "blog"
+    end
   end
 end
