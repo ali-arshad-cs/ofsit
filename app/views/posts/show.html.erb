@@ -1,26 +1,19 @@
-
-
-
-
-
-
-
 <div class="brand-colors"></div>
 <div class="head_panel">
   <!--<div style="background-image: url(http://www.devry.edu/content/dam/dvu/www_devry_edu/blog/im/Cracking-the-Code-Medical-Billing-and-Coding-Certificate-lg.jpg)" class="   ">-->
-    <%= image_tag @post.image.url(:large), class: "full_width_photo" %>
-    <div class="hgroup">
-      <div class="title  skincolored_section transparent_film text-left">
-        <div class="container">
-          <h1><%= @post.title %></h1>
-        </div>
-      </div>
-      <div class="subtitle  secondary_section transparent_film text-left">
-        <div class="container">
-          <p>Tips to get success for your practice.</p>
-        </div>
+  <%= image_tag @post.image.url(:large), class: "full_width_photo" %>
+  <div class="hgroup">
+    <div class="title  skincolored_section transparent_film text-left">
+      <div class="container">
+        <h1><%= @post.title %></h1>
       </div>
     </div>
+    <div class="subtitle  secondary_section transparent_film text-left">
+      <div class="container">
+        <p>Tips to get success for your practice.</p>
+      </div>
+    </div>
+  </div>
   <!--</div>-->
 </div>
 
@@ -43,15 +36,14 @@
                   </div>
                   <div class="post_figure_and_info">
                     <div class="post_sub">
-                      <span class="post_info post_date"><i class="fa fa-calendar"></i><%= time_ago_in_words(@post.created_at) %></span>
+                      <span class="post_info post_date"><i class="fa fa-calendar"></i><%= @post.created_at.strftime(" %B, %d, %Y ") %></span>
                       <a href="#" title="Your Practice Success and Medical Billing">
                         <span class="post_info post_categories">Medical Billing</span>
                       </a>
-                        <% if user_signed_in? %>
-                             <%= link_to 'Edit', edit_post_path(@post) , class: "btn btn-info" %>
-
-                          <%= link_to 'Admin HomePage', edit_post_path(@post) , class: "btn btn-warning" %>
-                        <% end %>
+                      <% if user_signed_in? %>
+                          <%= link_to 'Edit', edit_post_path(@post), class: "btn btn-info" %>
+                          <%= link_to 'Admin HomePage', edit_post_path(@post), class: "btn btn-warning" %>
+                      <% end %>
                     </div>
                   </div>
                   <p>
