@@ -1,5 +1,7 @@
 class PostsController < ApplicationController
 
+  require "html_truncator"
+
   before_action :authenticate_user!, except: [:index, :show]
 
   layout 'blog'
@@ -17,6 +19,7 @@ class PostsController < ApplicationController
     @post = Post.new(post_params)
 
     if @post.save
+      flash[:notice] = 'Post created successfully!'
       redirect_to @post
     else
       render 'new'
@@ -48,6 +51,7 @@ class PostsController < ApplicationController
 
     redirect_to posts_path
   end
+
 
 
   private

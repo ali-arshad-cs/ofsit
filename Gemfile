@@ -26,6 +26,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'ckeditor_rails'
 gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
+gem "html_truncator", "~>0.2"
+gem 'rails-html-sanitizer'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

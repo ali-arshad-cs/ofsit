@@ -1,3 +1,4 @@
+require "html_truncator"
 <div class="brand-colors"></div>
 <div class="head_panel">
   <div style="background-image: url(http://plethorathemes.com/healthflex/wp-content/uploads/2013/06/doctor_blue_left.jpg)" class="full_width_photo   ">
@@ -55,12 +56,16 @@
                           <span class="post_info post_categories">Medical Insurance</span>
                           <span class="post_info post_categories">Medical Billing</span>
                         </div>
-                        <a href="/blog2" title="Secure the Quality Measure Incentives">
-                          <%= image_tag post.image.url(:medium)%>
+                        <a href="#" title="Secure the Quality Measure Incentives">
+                          <%= link_to post do %>
+                              <%= image_tag post.image.url(:medium) %>
+                          <% end %>
                         </a>
                       </div>
                       <p>
-                        <%= post.body.html_safe %> [&hellip;]
+                        <%#=h truncate(comment.body, :length => 80) %>
+                        <%=  sanitize post.body.first(800)  %>
+                        [&hellip;]
                       </p>
                       <p>
                         <%= link_to "Read More", post_path(post), class: 'btn btn-primary' %>
