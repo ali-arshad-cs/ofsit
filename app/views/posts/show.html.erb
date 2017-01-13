@@ -7,28 +7,23 @@
 
 <div class="brand-colors"></div>
 <div class="head_panel">
-  <div style="background-image: url(http://www.devry.edu/content/dam/dvu/www_devry_edu/blog/im/Cracking-the-Code-Medical-Billing-and-Coding-Certificate-lg.jpg)" class="full_width_photo   ">
-
-
+  <!--<div style="background-image: url(http://www.devry.edu/content/dam/dvu/www_devry_edu/blog/im/Cracking-the-Code-Medical-Billing-and-Coding-Certificate-lg.jpg)" class="   ">-->
+    <%= image_tag @post.image.url(:large), class: "full_width_photo" %>
     <div class="hgroup">
-
       <div class="title  skincolored_section transparent_film text-left">
         <div class="container">
           <h1><%= @post.title %></h1>
         </div>
       </div>
-
       <div class="subtitle  secondary_section transparent_film text-left">
         <div class="container">
           <p>Tips to get success for your practice.</p>
         </div>
       </div>
-
     </div>
-
-
-  </div>
+  <!--</div>-->
 </div>
+
 
 <!--    ========================= MAIN WRAPPER START ========================  -->
 <div class="main foo" data-colorset="foo">
@@ -40,15 +35,11 @@
         <div class="col-sm-8 col-md-8 main_col ">
           <div class="post-grid classic">
             <div class="row">
-
-
               <div class="col-md-12">
                 <article id="post-271" class="post post-271 type-post status-publish format-standard has-post-thumbnail hentry category-motivation">
                   <div class="post_headings">
                     <h2 class="post_title">
-
                     </h2>
-
                   </div>
                   <div class="post_figure_and_info">
                     <div class="post_sub">
@@ -56,45 +47,31 @@
                       <a href="#" title="Your Practice Success and Medical Billing">
                         <span class="post_info post_categories">Medical Billing</span>
                       </a>
-
                         <% if user_signed_in? %>
                              <%= link_to 'Edit', edit_post_path(@post) , class: "btn btn-info" %>
                              <%= link_to 'Delete', post_path(@post), method: :delete, data: {confirm: 'Are you sure?'} , class: "btn btn-danger"%>
                           <%= link_to 'Admin HomePage', edit_post_path(@post) , class: "btn btn-warning" %>
                         <% end %>
-
                     </div>
-
                   </div>
                   <p>
-
                     <%= @post.body.html_safe %>
                   </p>
-
                 </article>
               </div>
-
-
-
-
-
             </div>
           </div>
           <!-- Start >>> Posts Pagination  -->
-
           <!-- End <<< Posts Pagination  -->
         </div>
         <!--    << END ========================= MAIN COLUMN ========================  -->
         <div id="sidebar" class="col-sm-4 col-md-4">
           <!-- ===================== MULTIBOX ========================-->
           <div class="widget plethora-multibox-widget black_section bg_vcenter transparent_film boxed_plus  " style="background-image:url(http://findmedicalbillingcoding.com/wp-content/uploads/medicalbillingcoding.jpg);">
-
-
-            <div class=""><h3>HQ Analytics Top medical billing & coding company</h3>
+            <div class="">
+              <h3>HQ Analytics Top medical billing & coding company</h3>
             </div>
-
           </div>
-
           <!-- END================== INFOBOX ========================-->
           <!-- ===================== MULTIBOX ========================-->
           <div class="widget plethora-multibox-widget black_section bg_vcenter transparent_film boxed_plus  " style="background-image:url(http://www.collegequest.com/wp-content/uploads/medical-billing-coding-schools.jpg);">
@@ -158,12 +135,12 @@
       <div class="col-sm-12 col-md-6"><!-- ========================== WIDGET ABOUT US ==========================-->
         <aside id="plethora-aboutus-widget-2" class="widget aboutus-widget">
           <div class="pl_about_us_widget">
-            <p><img src='/assets/wp-content/uploads/sites/3/2016/02/healthcoach_logo_white_retina_h50.png' alt='logo'>
+            <p>
+              <img src='/assets/wp-content/uploads/sites/3/2016/02/healthcoach_logo_white_retina_h50.png' alt='logo'>
             </p>
 
             <p>HQ Analytics is the leading provider of HealthCare Management Services to the Solo Practitioners, Group
               Practices, Hospitals and other Healthcare Services Providers.</p>
-
             <p>Let’s join HQ Analytics to experience the ideal services for your HealthCare Management needs!!</p>
 
             <p class='contact_detail'><i class='fa fa-phone'></i><span> (212) 470-1500</span></p>

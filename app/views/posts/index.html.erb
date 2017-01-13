@@ -35,54 +35,46 @@
             <div class="row">
 
 
-
-
               <% @posts.each do |post| %>
-              <div class="col-md-12">
-                <article id="post-97" class="post post-97 type-post status-publish format-standard has-post-thumbnail hentry category-diet category-motivation category-weight-loss">
-                  <div class="post_headings">
-                    <h2 class="post_title"><%= link_to post.title , post%></h2>
-<% if user_signed_in?%>
-                    <%= link_to 'Admin HomePage', edit_post_path(post) , class: "btn btn-warning" %>
-                        <% end%>
-
-                    <p class="post_subtitle">Improved Outcomes!</p></div>
-                  <div class="post_figure_and_info">
-                    <div class="post_sub">
-                      <span class="post_info post_date"><i class="fa fa-calendar"></i> <%= post.created_at.strftime(" %B, %d, %Y ") %></span><span class="post_info post_categories">Medical Incentives</span><span class="post_info post_categories">Medical Insurance</span><span class="post_info post_categories">Medical Billing</span>
-                    </div>
-                    <a href="/blog2" title="Secure the Quality Measure Incentives">
-                      <figure class="stretchy_wrapper ratio_2-1" style="background-image: url(http://www.successfulchannels.com/wp-content/uploads/2015/03/Success-Root.jpg)">
-                        <img alt="Secure the Quality Measure Incentives" src="http://www.successfulchannels.com/wp-content/uploads/2015/03/Success-Root.jpg">
-                      </figure>
-                    </a></div>
-                  <p> <%= post.body.html_safe %> [&hellip;]</p>
-                  <p><%= link_to "Read More", post_path(post) ,class: 'btn btn-primary' %></p>
-                </article>
-              </div>
+                  <div class="col-md-12">
+                    <article id="post-97" class="post post-97 type-post status-publish format-standard has-post-thumbnail hentry category-diet category-motivation category-weight-loss">
+                      <div class="post_headings">
+                        <h2 class="post_title"><%= link_to post.title, post %></h2>
+                        <% if user_signed_in? %>
+                            <%= link_to 'Admin HomePage', edit_post_path(post), class: "btn btn-warning" %>
+                        <% end %>
+                        <p class="post_subtitle">Improved Outcomes!</p>
+                      </div>
+                      <div class="post_figure_and_info">
+                        <div class="post_sub">
+                          <span class="post_info post_date">
+                            <i class="fa fa-calendar"></i>
+                            <%= post.created_at.strftime(" %B, %d, %Y ") %>
+                          </span>
+                          <span class="post_info post_categories">Medical Incentives</span>
+                          <span class="post_info post_categories">Medical Insurance</span>
+                          <span class="post_info post_categories">Medical Billing</span>
+                        </div>
+                        <a href="/blog2" title="Secure the Quality Measure Incentives">
+                          <%= image_tag post.image.url(:medium)%>
+                        </a>
+                      </div>
+                      <p>
+                        <%= post.body.html_safe %> [&hellip;]
+                      </p>
+                      <p>
+                        <%= link_to "Read More", post_path(post), class: 'btn btn-primary' %>
+                      </p>
+                    </article>
+                  </div>
               <% end %>
 
               <!--<#% @posts.each do |post| %>-->
-                  <!--<div class="post_wrapper">-->
-                    <!--<h2 class="title"><#%= link_to post.title , post%></h2>-->
-                    <!--<p class="date"><%#= post.created_at.strftime(" %B, %d, %Y ") %></p>-->
-                  <!--</div>-->
+              <!--<div class="post_wrapper">-->
+              <!--<h2 class="title"><#%= link_to post.title , post%></h2>-->
+              <!--<p class="date"><%#= post.created_at.strftime(" %B, %d, %Y ") %></p>-->
+              <!--</div>-->
               <!--<%# end %>-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
             </div>
