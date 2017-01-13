@@ -1,4 +1,3 @@
-require "html_truncator"
 <div class="brand-colors"></div>
 <div class="head_panel">
   <div style="background-image: url(http://plethorathemes.com/healthflex/wp-content/uploads/2013/06/doctor_blue_left.jpg)" class="full_width_photo   ">
@@ -63,9 +62,7 @@ require "html_truncator"
                         </a>
                       </div>
                       <p>
-                        <%#=h truncate(comment.body, :length => 80) %>
-                        <%=  sanitize post.body.first(800)  %>
-                        [&hellip;]
+                        <%=  sanitize post.body.first(800) + "[&hellip;]"  %>
                       </p>
                       <p>
                         <%= link_to "Read More", post_path(post), class: 'btn btn-primary' %>
@@ -74,12 +71,6 @@ require "html_truncator"
                   </div>
               <% end %>
 
-              <!--<#% @posts.each do |post| %>-->
-              <!--<div class="post_wrapper">-->
-              <!--<h2 class="title"><#%= link_to post.title , post%></h2>-->
-              <!--<p class="date"><%#= post.created_at.strftime(" %B, %d, %Y ") %></p>-->
-              <!--</div>-->
-              <!--<%# end %>-->
 
 
             </div>
